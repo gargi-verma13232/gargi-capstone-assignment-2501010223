@@ -1,0 +1,328 @@
+/* ================= BASIC RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ================= HEADER / NAV ================= */
+.top-bar {
+    background: #0f4cba;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #ffb400;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+
+/* ================= HERO ================= */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.hero p {
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+/* ================= SEARCH BOX ================= */
+.search-box {
+    display: inline-flex;
+    gap: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-box input,
+.search-box select {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-box input:hover,
+.search-box select:hover {
+    border-color: #0f4cba;
+}
+
+.search-box button {
+    padding: 8px 16px;
+    border: none;
+    background: #0f4cba;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.search-box button:hover {
+    background: #083a8f;
+    transform: scale(1.05);
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    padding: 40px 0;
+}
+
+.section-light {
+    background: #fff;
+}
+
+.section-blue {
+    background: #0f4cba;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+/* ================= CARDS ================= */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card-img:hover {
+    opacity: 0.85;
+}
+
+.small-img {
+    height: 120px;
+}
+
+.card-location {
+    color: #777;
+    font-size: 12px;
+}
+
+/* ================= AGENTS ================= */
+.small-card {
+    text-align: center;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+/* ================= PROPERTY DETAIL ================= */
+.property-detail {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.property-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.3s;
+}
+
+.property-img:hover {
+    transform: scale(1.03);
+}
+
+.price {
+    color: #0f4cba;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ================= WHY US ================= */
+.simple-card {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+}
+
+.simple-card:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+/* ================= STATS ================= */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.stats div:hover {
+    color: #ffeb3b;
+}
+
+/* ================= NEWSLETTER ================= */
+.newsletter {
+    background: #0f4cba;
+    color: #fff;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.newsletter input {
+    padding: 8px;
+    width: 220px;
+}
+
+.newsletter button {
+    padding: 8px 16px;
+    background: #ffb400;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: #e6a200;
+}
+
+/* ================= CONTACT ================= */
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-box input:hover,
+.contact-box textarea:hover {
+    border-color: #0f4cba;
+}
+
+.contact-box button {
+    background: #0f4cba;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background: #083a8f;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #111827;
+    color: #ccc;
+    padding: 25px 0;
+    font-size: 13px;
+}
+
+.footer h3,
+.footer h4 {
+    color: #fff;
+}
+
+.footer p:hover {
+    color: #ffb400;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .property-detail {
+        flex-direction: column;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
