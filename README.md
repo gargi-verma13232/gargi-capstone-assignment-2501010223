@@ -24,20 +24,35 @@ CSS3 – Styling, layout, responsiveness, and hover effects
 
 # Project Structure
 DreamHome/
+
 │
+
 ├── index.html
+
 ├── style.css
+
 ├── pic1.jpeg
+
 ├── pic2.jpeg
+
 ├── pic3.jpeg
+
 ├── pic4.jpeg
+
 ├── pic5.jpeg
+
 ├── agent1.jpeg
+
 ├── agent2.jpeg
+
 ├── agent3.jpeg
+
 ├── p1.jpeg
+
 ├── p2.jpeg
+
 ├── p3.jpeg
+
 └── README.md
 
 # Website Sections
